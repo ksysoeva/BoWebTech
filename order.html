@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Оформление заказа бенто-торта</title>
+    <link rel="stylesheet" href="./css/order.css">
+</head>
+<body bgcolor="#FAEBF5">
+    <header>
+<table width="100%" border="0" cellspacing="3">
+            <tbody><tr>
+                <td colspan="2">
+                    <a href="https://vk.com/" target="_blank"><img src="./images/vk.jpeg" width="30px"></a>
+                    <a href="https://tlgrm.ru/" target="_blank"><img src="./images/tg.jpeg" width="60px"></a>
+                    <br> <a href="https://www.google.com/maps/"> АДРЕСА МАГАЗИНОВ</a>
+                  <td>
+                    <a href="project.html" >
+                    <img class='logo' src="./images/logo.jpg" height="100" width="100" align="center">
+                    </a>
+
+                    </td><td colspan="2">
+                        8(905)748-80-00
+                       <br> <b><a href="#">ОФОРМИТЬ ЗАКАЗ</a></b>
+            </td></tr>
+    <tr>
+        <td width="20%"> <a href="main-page.html"> ГЛАВНАЯ </a> </td>
+        <td width="20%"><a href="torty.html">  БЕНТО-ТОРТЫ </a> </td>
+        <td width="20%"><a href="filling.html"> НАЧИНКИ </a> </td>
+        <td width="20%">
+            <div class="dropdown"><a href="omagazine.html"> О МАГАЗИНЕ </a>
+                <div class="dropdown-content">
+                    <a href="omagazine.html#contacts">Контакты</a>
+                    <a href="omagazine.html#qa">Q&A</a>
+                    <a href="omagazine.html#pay">Доставка и Оплата</a>
+                  </div>
+            </div>
+        </td>
+<!--        <td width="20%">-->
+<!--            <div class="dropdown"><a id="mono-title" href="uhod.html"> правила ухода</a>-->
+<!--                <div class="dropdown-content">-->
+<!--                    <a href="uhod.html#s1">ШАГ 1</a>-->
+<!--                    <a href="uhod.html#s2">ШАГ 2</a>-->
+<!--                    <a href="uhod.html#s3">ШАГ 3</a>-->
+<!--                    <a href="uhod.html#s4">ШАГ 4</a>-->
+<!--                    <a href="uhod.html#s5">ШАГ 5</a>-->
+<!--                    <a href="uhod.html#s6">ШАГ 6</a>-->
+<!--                  </div>-->
+<!--            </div>-->
+<!--       </td>-->
+    </tr>
+    </tbody></table></header>
+
+
+
+    <p class="personall">
+    <frame><span id="lichnie">Личные данные</span>
+        <label for="name">Имя:</label>
+                    <input name="name" id="name" type="text" placeholder="Введите имя:">
+        <label for="surname">Фамилию:</label>
+                    <input name="surname" id="surname" type="text" placeholder="Введите фамилию:">
+        <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{4}-[0-9]{2}-[0-9]{2}" placeholder="Введите телефон:"></frame>
+        <label for="email">Оставьте свой email для обратной связи и личного кабинета:</label>
+                    <input name="email" id="email" type="email" placeholder="Email@gmail.com">
+        <label for="password">Пароль:</label>
+                    <input name="password" id="password" placeholder="Введите пароль:">
+<!--            <button class='button' type="submit">Подтвердить</button>-->
+        <form>
+
+        <br><fieldset>
+    <legend>Начинка (выберите одну):</legend>
+
+    <input type="radio" id="kraken" name="monster" value="K" />
+    <label for="kraken">Шоколадный фундук с соленой карамелью</label><br />
+
+    <input type="radio" id="sasquatch" name="monster" value="S" />
+    <label for="sasquatch">Три шоколада</label><br />
+
+    <input type="radio" id="mothman" name="monster" value="M" />
+    <label for="mothman">Малина-манго-маракуйя</label>
+
+  </fieldset>
+
+
+    <br><br>Введите дату доставки: <input type="date" name="calendar"></form>
+    <br><label for="textarea">Введите адрес доставки:</label>
+    <textarea name="textarea" id="textarea" cols="15" rows="5" placeholder="Введите адрес доставки: город, улица, подъезд, этаж, *домофон для курьера"></textarea>
+        </frame>
+
+
+
+      </p>
+<form action="" method="post">
+  <fieldset>
+<input name="checkbox" id="checkbox" type="checkbox" placeholder="rassylki">
+<label for="checkbox"></label> Я согласен(-на) получать информационные и рекламные рассылки </span></span>
+
+<br><p>Откуда Вы узнали о бенто-тортах Вупи Пуппи:</br>
+    <br><input name="checkbox_man" id="checkbox_man" type="checkbox" placeholder="Man">
+    <label for="checkbox"></label> От друзей
+
+    <br><input name="checkbox_girl" id="checkbox_girlc" type="checkbox" placeholder="Girl">
+    <label for="checkbox"></label> От блогеров
+
+    <br><input name="checkbox_girl" id="checkbox_girlc" type="checkbox" placeholder="Girl">
+    <label for="checkbox"></label> Реклама в интернете</br>
+</p>
+
+
+    <button type="submit">Сохранить</button>
+  </fieldset>
+</form>
+
+
+<form>
+
+    <br><button type="button">Подтвердить, что указанные данные являются достоверными</button>
+</form>
+</body>
+</html>
