@@ -1,0 +1,23 @@
+#nachinki{display: flex;
+width: 60%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24px;
+border-radius: 16px;
+border: 1px dashed var(--d-9-d-1-e-0-stroke, purple)
+}
+a {
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.help-a:hover {
+  text-decoration: none;
+}
+#tdd{border-radius: 16px;
+border: 1px dashed var(--d-9-d-1-e-0-stroke, pink)
+}

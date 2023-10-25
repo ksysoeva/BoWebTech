@@ -1,0 +1,14 @@
+#table3{background-image:
+url("clouds.jpeg")}
+
+a {
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.help-a:hover {
+  text-decoration: none;
+}
