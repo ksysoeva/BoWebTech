@@ -51,8 +51,10 @@
     </tbody></table></header>
 
 
-
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+ <p>Для поисковика:<input name="q" type="Text" value="search"></p>
     <p class="personall">
+
     <frame><span id="lichnie">Личные данные</span>
         <label for="name">Имя:</label>
                     <input name="name" id="name" type="text" placeholder="Введите имя:">
@@ -64,8 +66,6 @@
                     <input name="email" id="email" type="email" placeholder="Email@gmail.com">
         <label for="password">Пароль:</label>
                     <input name="password" id="password" placeholder="Введите пароль:">
-<!--            <button class='button' type="submit">Подтвердить</button>-->
-        <form>
 
         <br><fieldset>
     <legend>Начинка (выберите одну):</legend>
@@ -82,7 +82,8 @@
   </fieldset>
 
 
-    <br><br>Введите дату доставки: <input type="date" name="calendar"></form>
+<br><br>Введите дату доставки: <input type="date" name="calendar">
+
     <br><label for="textarea">Введите адрес доставки:</label>
     <textarea name="textarea" id="textarea" cols="15" rows="5" placeholder="Введите адрес доставки: город, улица, подъезд, этаж, *домофон для курьера"></textarea>
         </frame>
@@ -90,7 +91,7 @@
 
 
       </p>
-<form action="" method="post">
+
   <fieldset>
 <input name="checkbox" id="checkbox" type="checkbox" placeholder="rassylki">
 <label for="checkbox"></label> Я согласен(-на) получать информационные и рекламные рассылки </span></span>
@@ -106,15 +107,18 @@
     <label for="checkbox"></label> Реклама в интернете</br>
 </p>
 
+<!--      <p>-->
+<!--        <input type="Reset"  name="Reset"  value="Обновить">-->
+<!--        <input type="Submit" name="submit"  value="Отправить">-->
+<!--    </p>-->
 
-    <button type="submit">Сохранить</button>
+
+    <button type="submit" name="submit"  value="Отправить">Отправить</button>
   </fieldset>
 </form>
 
 
-<form>
-
     <br><button type="button">Подтвердить, что указанные данные являются достоверными</button>
-</form>
+
 </body>
 </html>
