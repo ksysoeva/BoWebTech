@@ -11,27 +11,16 @@ function calculateX() {
             document.getElementById("result").innerHTML = "Результаты вычислений: " + x;
 }
 
-function send() {
+const node_for_click_all = document.getElementById("send")
+
+function find_edit_all(){
+
+
+let textCondition = document.getElementsByTagName('p')[0].innerText
         document.getElementsByName('formulation')[0].value = textCondition;
-        document.getElementById('result').innerText.slice(23)= result;
+let result = document.getElementById('result').innerText.slice(23)
         document.getElementById("UserEnter").submit();
-}
-
-function verify_send() {
-   verify();
-   send();
-}
+        }
 
 
-    let messageText = document.getElementById("result").innerText
-    console.log(messageText)
-    let result;
-    let check = false;
-
-
-
-    const elementcalculateX = document.getElementById("calculateX");
-    elementVerify.addEventListener('click', calculateX);
-
-    const elementSend = document.getElementById("send");
-    elementSend.addEventListener('click', send)
+node_for_click_all.addEventListener("click",find_edit_all)
