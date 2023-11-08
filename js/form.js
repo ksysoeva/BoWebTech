@@ -8,5 +8,5 @@
                 x = 1 / (Math.pow(a, 2) + 4 * a + 5);
             }
 
-            document.getElementById("result").innerHTML = "Результат: " + x;
+            document.getElementById("result").innerHTML = "Результаты вычислений: " + x;
         }
