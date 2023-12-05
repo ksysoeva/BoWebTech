@@ -5,7 +5,7 @@
     "vendor_code": "111",
     "description": "Торт 'Happy'",
     "price": 1000,
-    "img": "images/bento1.webp"
+    "img": "./images/bento1.webp"
   },
   {
     "id": "2",
@@ -21,7 +21,7 @@
     "vendor_code": "333",
     "description": "Торт с памятной датой",
     "price": 1000,
-    "img": "../images/bento3.webp"
+    "img": "./images/bento3.webp"
   },
   {
     "id": "4",
@@ -29,7 +29,7 @@
     "vendor_code": "444e",
     "description": "Торт 'Happy Birthday'",
     "price": 1100,
-    "img": "../images/bento4.webp"
+    "img": "./images/bento4.webp"
   }
   ,
   {
@@ -38,7 +38,7 @@
     "vendor_code": "4445e",
     "description": "Торт 'почти дайсон'",
     "price": 1100,
-    "img": "../images/bento5.webp"
+    "img": "./images/bento5.webp"
   },
   {
     "id": "6",
@@ -46,7 +46,7 @@
     "vendor_code": "4446e",
     "description": "Торт 'love'",
     "price": 1200,
-    "img": "../images/bento6.webp"
+    "img": "./images/bento6.webp"
   },
   {
     "id": "7",
@@ -54,7 +54,7 @@
     "vendor_code": "4447e",
     "description": "Торт 'вместо bmw'",
     "price": 1100,
-    "img": "../images/bento7.webp"
+    "img": "./images/bento7.webp"
   },
   {
     "id": "8",
@@ -62,7 +62,7 @@
     "vendor_code": "4448e",
     "description": "Торт 'ни с кем не делись'",
     "price": 1200,
-    "img": "../images/bento8.webp"
+    "img": "./images/bento8.webp"
   },
   {
     "id": "9",
@@ -70,7 +70,7 @@
     "vendor_code": "444e",
     "description": "Торт 'сердечки'",
     "price": 1100,
-    "img": "../images/bento9.webp"
+    "img": "./images/bento9.webp"
   }
   ,
   {
@@ -79,7 +79,7 @@
     "vendor_code": "44410e",
     "description": "Торт 'together'",
     "price": 1100,
-    "img": "../images/bento10.webp"
+    "img": "./images/bento10.webp"
   },
   {
     "id": "11",
@@ -87,7 +87,7 @@
     "vendor_code": "44411e",
     "description": "Торт 'котик'",
     "price": 1200,
-    "img": "../images/bento11.webp"
+    "img": "./images/bento11.webp"
   },
   {
     "id": "12",
@@ -95,6 +95,6 @@
     "vendor_code": "44412e",
     "description": "Торт 'С днем рождения, папа!'",
     "price": 1000,
-    "img": "../images/bento12.webp"
+    "img": "./images/bento12.webp"
   }
 ]
