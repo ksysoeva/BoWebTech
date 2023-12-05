@@ -7,3 +7,5 @@ Homeworks to the course "Begins of Web-Technologies"
 
 [web-site c использованием Bootstrap](
 https://ksysoeva.github.io/BoWebTech/index.html)
+
+[h/w table - css designed](https://ksysoeva.github.io/BoWebTech/table_seminar.html)
