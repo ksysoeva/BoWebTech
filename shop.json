@@ -5,7 +5,7 @@
     "vendor_code": "111",
     "description": "Торт 'Happy'",
     "price": 1000,
-    "img": "../images/bento1.webp"
+    "img": "images/bento1.webp"
   },
   {
     "id": "2",
