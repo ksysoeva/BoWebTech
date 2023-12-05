@@ -13,7 +13,7 @@
     "vendor_code": "222",
     "description": "Торт 'I love you'",
     "price": 2000,
-    "img": "../images/bento2.webp"
+    "img": "./images/bento2.webp"
   },
   {
     "id": "3",
