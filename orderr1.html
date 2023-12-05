@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <title>Адаптивная страница</title>
+</head>
+
+<body>
+
+  <div class="container">
+  
+    <header class="card" style="height: 3.rem; background-image: url(./images/background.jpg);">
+      <div class="card-body bg-color">
+  
+          <img class="align-self-center" height="60px" src="/images/logo.jpg"> <span> Кондитерская "Вупи Пуппи"</span> <br>
+          <br> <a href="https://www.google.com/maps/"> АДРЕСА МАГАЗИНОВ</a><br>
+          <a href="https://vk.com/" target="_blank"><img src="/images/vk.jpeg" width="30px"></a>
+          <a href="https://tlgrm.ru/" ><img src="/images/tg.jpeg" width="60px"></a>
+                  
+      </div>
+  </header>
+  
+      <div class="card">
+          <div class="card-body">
+              <ul class="nav nav-tabs">
+                  <li class="nav-item"><a class="nav-link " href="./index.html">О магазине</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="./shop.html">Каталог тортов</a>
+                  </li>
+                  <li class="nav-item"> <a class="nav-link active" href="./orderr1.html">Оформить заказ торта</a></li>
+              </ul>
+          </div>
+
+  <div class="container">
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+      <p>Для поисковика:<input name="q" type="Text" value="search"></p>
+         <fieldset class="personall">
+          <div class="form-group">
+            <span id="lichnie">Личные данные</span><br>
+
+            <label for="name">Имя:</label>
+            <input name="name" id="name" type="text" class="form-control" placeholder="Введите имя:">
+          </div>
+          <div class="form-group">
+            <label for="surname">Фамилию:</label>
+            <input name="surname" id="surname" type="text" class="form-control" placeholder="Введите фамилию:">
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{4}-[0-9]{2}-[0-9]{2}" class="form-control" placeholder="Введите телефон:">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="email" class="form-control" placeholder="Email@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="password">Пароль:</label>
+            <input name="hidden" id="password" type="password" class="form-control" placeholder="Введите пароль:">
+          </div>
+
+      <button type="submit" class="btn btn-success" name="submit" value="Отправить">Отправить</button>
+        </fieldset>
+    </form>
+
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+      <div class="form-group">
+        <p>Для поисковика:<input name="q" type="Text" value="search"></p>
+      </div>
+      <div class="form-group">
+        <fieldset>
+          <legend>Начинка (выберите одну):</legend>
+          <div class="form-check">
+            <input type="radio" id="chocolate" name="taste" value="chocolate" class="form-check-input">
+            <label for="kraken" class="form-check-label">Шоколадный фундук с соленой карамелью</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" id="three_choco" name="taste" value="three_choco" class="form-check-input">
+            <label for="sasquatch" class="form-check-label">Три шоколада</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" id="mango" name="taste" value="mango" class="form-check-input">
+            <label for="mothman" class="form-check-label">Малина-манго-маракуйя</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="form-group">
+        <label for="calendar">Введите дату доставки:</label>
+        <input type="date" name="calendar" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="textarea">Введите адрес доставки:</label>
+        <textarea name="textarea" id="textarea" class="form-control" placeholder="Введите адрес доставки: город, улица, подъезд, этаж, *домофон для курьера"></textarea>
+      </div>
+
+      <div class="form-check">
+        <input name="checkbox" id="checkbox" type="checkbox" class="form-check-input">
+        <label for="checkbox" class="form-check-label">Я согласен(-на) получать информационные и рекламные рассылки</label>
+      </div>
+      <div class="form-group">
+      <br><p>Откуда Вы узнали о бенто-тортах Вупи Пуппи:</br></p>
+        <input name="checkbox_man" id="checkbox_man" type="checkbox" placeholder="Man">
+        <label for="checkbox"></label> От друзей
+    
+        <br><input name="checkbox_girl" id="checkbox_girlc" type="checkbox" placeholder="Girl">
+        <label for="checkbox"></label> От блогеров
+    
+        <br><input name="checkbox_girl" id="checkbox_girlc" type="checkbox" placeholder="Girl">
+        <label for="checkbox"></label> Реклама в интернете</br>
+
+    
+  </div>
+    <button type="submit" class="btn btn-success" name="submit" value="Отправить">Отправить</button>
+        </fieldset>
+      <!-- Остальной код формы здесь -->
+
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.14.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
