@@ -1,4 +1,3 @@
-
 function calculateX() {
             var a = parseFloat(document.getElementById("inputA").value);
             var x;
@@ -12,15 +11,3 @@ function calculateX() {
 }
 
 const node_for_click_all = document.getElementById("send")
-
-function find_edit_all(){
-
-
-let textCondition = document.getElementsByTagName('p')[0].innerText
-        document.getElementsByName('formulation')[0].value = textCondition;
-let result = document.getElementById('result').innerText.slice(23)
-        document.getElementById("UserEnter").submit();
-        }
-
-
-node_for_click_all.addEventListener("click",find_edit_all)

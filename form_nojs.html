@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title>Решение задачи</title>
+</head>
+
+ <header>
+  <a href="schitivaem_info.html">DOM_JS. Считываем информацию из DOM</a>
+     <br> <a href="passport_find_edit.html">Изменяем кириллицу на латиницу по клику</a>
+    <br> <a href="form_task.html">Решение алгоритмической задачи</a>
+     <br> <a href="#"><b>Решение алгоритмической задачи</b></a>
+ </header>
+<body>
+    <h1>Решение алгоритмической задачи</h1>
+    <p><i>Дано вещественное число A.<br>
+Вычислить х = a**2+4+5 при а < 62; в противном случае x = 1/((a**2) + 4a + 5).</i></p>
+
+
+    <form>
+    <ul>
+
+        <br>
+        <p>Формулировка задачи <input name="formulation"
+                                       value="Дано вещественное число A.
+                Вычислить х = a**2+4+5 при а < 62; в противном случае x = 1/((a**2) + 4a + 5)."</p>
+
+
+            <p>Введите число A: <input id="inputA" name="a"  type="number" value=10></p>
+
+
+            <p>Результат: <input id="verify" type="button" value="Вычислить" onclick="calculateX()"></p>
+            <p id="result">Результаты вычислений: <input>  </p>
+
+        </ul>
+
+</form>
+<script src="./js/form_nojs.js"></script>
+</body>
+</html>
