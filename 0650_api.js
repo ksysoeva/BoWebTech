@@ -1,7 +1,4 @@
 
-  
-
-
 async function getResponce() {
   // let responce = await fetch("https://my-json-server.typicode.com/typicode/demo/posts")
   //let responce = await fetch("https://vmarshirov.github.io/g06u28/030_js/data/0620.json")
