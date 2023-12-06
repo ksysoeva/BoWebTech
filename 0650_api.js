@@ -1,14 +1,3 @@
-function sort(){
-  let price= document.getElementById('price')
-  let title=document.getElementById('title')
-
-  if(price.checked){
-    document.getElementById('node_for_insert').innerHTML='';
-    getResponce()}
-  if(title.checked){
-    document.getElementById('node_for_insert').innerHTML='';
-    getResponce()}
-}
 
   
 
@@ -44,5 +33,5 @@ async function getResponce() {
               `
   }
 }
-sort()
+
 getResponce()
