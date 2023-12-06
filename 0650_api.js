@@ -1,3 +1,18 @@
+function sort(){
+  let price= document.getElementById('price')
+  let title=document.getElementById('title')
+
+  if(price.checked){
+    document.getElementById('node_for_insert').innerHTML='';
+    getResponce()}
+  if(title.checked){
+    document.getElementById('node_for_insert').innerHTML='';
+    getResponce()}
+}
+sort()
+  
+
+
 async function getResponce() {
   // let responce = await fetch("https://my-json-server.typicode.com/typicode/demo/posts")
   //let responce = await fetch("https://vmarshirov.github.io/g06u28/030_js/data/0620.json")
