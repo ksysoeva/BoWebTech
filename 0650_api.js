@@ -9,7 +9,7 @@ function sort(){
     document.getElementById('node_for_insert').innerHTML='';
     getResponce()}
 }
-sort()
+
   
 
 
@@ -44,4 +44,5 @@ async function getResponce() {
               `
   }
 }
+sort()
 getResponce()
