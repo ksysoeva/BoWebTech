@@ -1,0 +1,79 @@
+table{
+border-collapse: collapse;
+border: 1px;
+border-radius: 12px;
+text-aligh: center;
+font-size: 20px;
+border-spacing: 0px 1px;
+width:450px;
+}
+
+
+td:first-child{
+background-color: #D2B48C;
+color: #8B4513;
+}
+th:third-child{
+background-color: #D2B48C;
+color: #8B4513;
+}
+
+#q1{
+border-top-left-radius: 10px;
+background-color: yellow;
+}
+#q3{
+background-color: yellow;
+}
+#q4{
+border-top-right-radius: 10px;
+}
+td.special-cell{
+border-top-left-radius: 10px;  /*закругление верхнего левого угла*/
+}
+td.special-cell-bottom{
+border-bottom-left-radius: 10px;  /*закругление нижнего левого угла*/
+}
+td.special-cell{
+border-top-left-radius: 10px;  /*закругление верхнего правого угла*/
+}
+td.special-cell-bottom{
+border-bottom-left-radius: 10px;  /*закругление верхнего левого угла*/
+}
+/*th:first-child{
+border-top-left-radius: 10px;
+}*/
+nth-child(2){
+border-top-left-radius: 10px;
+}
+
+tr:first-child{
+background-color: #D2B48C;
+color: #8B4513;
+border-top-left-radius: 10px;
+}
+th:first-child{
+background-color:white
+}
+
+
+th{
+text-color: white;
+}
+tr td{
+padding: 10px;
+border-color: white;
+border-style: solid;
+}
+
+tr{
+border-color: white;
+border-style: solid;
+border: 1px;
+background-color: yellow;
+}
+
+tr:hover{
+background-color: #D2B48C;
+color: #8B4513;
+}
