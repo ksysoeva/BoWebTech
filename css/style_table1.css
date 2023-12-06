@@ -40,9 +40,7 @@ border-top-left-radius: 10px;  /*закругление верхнего пра�
 td.special-cell-bottom{
 border-bottom-left-radius: 10px;  /*закругление верхнего левого угла*/
 }
-/*th:first-child{
-border-top-left-radius: 10px;
-}*/
+
 nth-child(2){
 border-top-left-radius: 10px;
 }
