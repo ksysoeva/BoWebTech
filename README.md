@@ -9,3 +9,6 @@ Homeworks to the course "Begins of Web-Technologies"
 https://ksysoeva.github.io/BoWebTech/index.html)
 
 [h/w table - css designed](https://ksysoeva.github.io/BoWebTech/table_seminar.html)
+
+[carousel_bootstrap](https://ksysoeva.github.io/BoWebTech/carousel.html)
+
