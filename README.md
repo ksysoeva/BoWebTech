@@ -12,3 +12,4 @@ https://ksysoeva.github.io/BoWebTech/index.html)
 
 [carousel_bootstrap](https://ksysoeva.github.io/BoWebTech/carousel.html)
 
+[table_bootstrap](https://ksysoeva.github.io/BoWebTech/table1.html)
